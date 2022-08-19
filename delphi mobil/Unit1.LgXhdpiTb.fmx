@@ -1,0 +1,54 @@
+inherited Form1_LgXhdpiTb: TForm1_LgXhdpiTb
+  ClientHeight = 829
+  ClientWidth = 480
+  DesignerMasterStyle = 0
+  inherited Panel1: TPanel
+    Position.X = 64.000000000000000000
+    Position.Y = 128.000000000000000000
+    inherited ListBox1: TListBox
+      Viewport.Width = 195.000000000000000000
+      Viewport.Height = 169.000000000000000000
+    end
+  end
+  inherited CheckBox1: TCheckBox
+    Position.X = 160.000000000000000000
+    Position.Y = 520.000000000000000000
+  end
+  inherited Label2: TLabel
+    Position.X = 144.000000000000000000
+    Position.Y = 88.000000000000000000
+    TextSettings.Font.StyleExt = {00080000000100000004000000}
+  end
+  inherited Edit1: TEdit
+    Position.X = 64.000000000000000000
+    Position.Y = 552.000000000000000000
+    Size.Width = 233.000000000000000000
+  end
+  inherited Button1: TButton
+    Position.X = 72.000000000000000000
+    Position.Y = 592.000000000000000000
+    Size.Width = 225.000000000000000000
+  end
+  inherited Edit2: TEdit
+    Position.X = 64.000000000000000000
+    Size.Width = 89.000000000000000000
+    Size.Height = 32.000000000000000000
+    Size.PlatformDefault = False
+  end
+  inherited Label3: TLabel
+    Position.X = 320.000000000000000000
+    Position.Y = 184.000000000000000000
+  end
+  inherited Edit3: TEdit
+    Position.X = 88.000000000000000000
+    Position.Y = 360.000000000000000000
+  end
+  inherited Button2: TButton
+    Position.X = 216.000000000000000000
+    Position.Y = 352.000000000000000000
+  end
+  inherited Button4: TButton
+    Position.X = 24.000000000000000000
+    Position.Y = 64.000000000000000000
+  end
+end

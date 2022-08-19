@@ -1,0 +1,147 @@
+object Form4: TForm4
+  Left = 0
+  Top = 0
+  Caption = 'Form4'
+  ClientHeight = 480
+  ClientWidth = 358
+  Fill.Kind = Gradient
+  Fill.Gradient.Points = <
+    item
+      Color = xFFE2B8B8
+      Offset = 0.000000000000000000
+    end
+    item
+      Color = claWhite
+      Offset = 1.000000000000000000
+    end>
+  Fill.Gradient.StartPosition.X = 0.500000000000000000
+  Fill.Gradient.StartPosition.Y = 1.000000000000000000
+  Fill.Gradient.StopPosition.X = 0.499999970197677600
+  Fill.Gradient.StopPosition.Y = 0.000000000000000000
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Edit1: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 0
+    Position.X = 16.000000000000000000
+    Position.Y = 144.000000000000000000
+    TextPrompt = 'Kilonuzu Girin'
+  end
+  object Edit2: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 1
+    Position.X = 160.000000000000000000
+    Position.Y = 144.000000000000000000
+    TextPrompt = 'Boyunuzu G'#304'rin'
+  end
+  object Button1: TButton
+    Position.X = 16.000000000000000000
+    Position.Y = 184.000000000000000000
+    TabOrder = 2
+    Text = 'Hesapla'
+    OnClick = Button1Click
+  end
+  object Label1: TLabel
+    Position.X = 240.000000000000000000
+    Position.Y = 184.000000000000000000
+    Text = '0'
+    TabOrder = 3
+  end
+  object Panel1: TPanel
+    Position.X = 24.000000000000000000
+    Position.Y = 240.000000000000000000
+    Size.Width = 281.000000000000000000
+    Size.Height = 225.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 5
+    object Label4: TLabel
+      Position.X = 24.000000000000000000
+      Position.Y = 80.000000000000000000
+      Text = 'Zay'#305'f'
+      TabOrder = 0
+    end
+    object Label5: TLabel
+      Position.X = 80.000000000000000000
+      Position.Y = 80.000000000000000000
+      Text = 'Normal'
+      TabOrder = 3
+    end
+    object Label6: TLabel
+      Position.X = 152.000000000000000000
+      Position.Y = 80.000000000000000000
+      Text = 'Kilolu'
+      TabOrder = 2
+    end
+    object Label7: TLabel
+      Position.X = 208.000000000000000000
+      Position.Y = 80.000000000000000000
+      Text = 'Obez'
+      TabOrder = 1
+    end
+    object Label8: TLabel
+      Position.X = 24.000000000000000000
+      Position.Y = 104.000000000000000000
+      Text = '<18'
+      TabOrder = 7
+    end
+    object Label9: TLabel
+      Position.X = 80.000000000000000000
+      Position.Y = 104.000000000000000000
+      Text = '18-25'
+      TabOrder = 6
+    end
+    object Label10: TLabel
+      Position.X = 152.000000000000000000
+      Position.Y = 104.000000000000000000
+      Text = '25-30'
+      TabOrder = 5
+    end
+    object Label11: TLabel
+      Position.X = 209.000000000000000000
+      Position.Y = 104.000000000000000000
+      Text = '30-35'
+      TabOrder = 4
+    end
+  end
+  object ProgressBar1: TProgressBar
+    Max = 35.000000000000000000
+    Orientation = Horizontal
+    Position.X = 48.000000000000000000
+    Position.Y = 368.000000000000000000
+    Size.Width = 225.000000000000000000
+    Size.Height = 20.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Label2: TLabel
+    Position.X = 160.000000000000000000
+    Position.Y = 184.000000000000000000
+    Text = 'Sonu'#231':'
+    TabOrder = 6
+  end
+  object Label3: TLabel
+    StyledSettings = [Family, FontColor]
+    Position.X = 24.000000000000000000
+    Position.Y = 24.000000000000000000
+    Size.Width = 401.000000000000000000
+    Size.Height = 57.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 28.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    Text = 'V'#220'CUT K'#304'TLE '#304'NDEKS'#304
+    TabOrder = 7
+  end
+  object Label12: TLabel
+    Position.X = 16.000000000000000000
+    Position.Y = 120.000000000000000000
+    Text = 'Kilo'
+    TabOrder = 9
+  end
+  object Label13: TLabel
+    Position.X = 160.000000000000000000
+    Position.Y = 120.000000000000000000
+    Text = 'Boy'
+    TabOrder = 8
+  end
+end

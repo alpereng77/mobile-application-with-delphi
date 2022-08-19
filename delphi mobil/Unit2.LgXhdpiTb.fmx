@@ -1,0 +1,29 @@
+inherited Form2_LgXhdpiTb: TForm2_LgXhdpiTb
+  ClientHeight = 829
+  ClientWidth = 480
+  DesignerMasterStyle = 3
+  inherited ImageControl1: TImageControl
+    Align = Top
+    Size.Width = 480.000000000000000000
+  end
+  inherited Label1: TLabel
+    Align = Center
+    StyledSettings = [Family]
+    Size.Width = 480.000000000000000000
+    Size.Height = 58.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 36.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.FontColor = claWhite
+    TextSettings.HorzAlign = Center
+    Text = 'Ara'#231' K'#305'yasla'
+  end
+  inherited Button1: TButton
+    Align = Bottom
+    Position.Y = 785.000000000000000000
+    Size.Width = 480.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Giri'#351
+    OnClick = Button1Click
+  end
+end

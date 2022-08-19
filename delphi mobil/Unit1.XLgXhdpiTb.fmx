@@ -1,0 +1,14 @@
+inherited Form1_XLgXhdpiTb: TForm1_XLgXhdpiTb
+  ClientHeight = 1255
+  ClientWidth = 800
+  DesignerMasterStyle = 3
+  inherited Panel1: TPanel
+    inherited ListBox1: TListBox
+      Viewport.Width = 195.000000000000000000
+      Viewport.Height = 169.000000000000000000
+    end
+  end
+  inherited Label2: TLabel
+    TextSettings.Font.StyleExt = {00080000000100000004000000}
+  end
+end
